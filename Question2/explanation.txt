@@ -1,1 +1,33 @@
+Command: mkdir ~/documents
+Explanation: This command creates a directory named documents inside the home directory to store project-related files.
+
+Command: cd ~/documents
+Explanation: This command changes the current working directory to the documents directory.
+
+Command: touch plan.txt
+Explanation: This command creates an empty file named plan.txt inside the documents directory.
+
+Command: echo "Complete project documentation and review milestones." > plan.txt
+Explanation: This command writes sample project-related text into the plan.txt file.
+
+Command: ls -l plan.txt
+Explanation: This command displays the permissions, ownership, size, and modification details of the plan.txt file, ensuring my username appears as the owner.
+
+Command: cp plan.txt plan_copy.txt
+Explanation: This command creates a duplicate of plan.txt named plan_copy.txt.
+
+Command: mv ~/documents ~/project_documents
+Explanation: This command renames the documents directory to project_documents to better reflect the project scope.
+
+Command: mkdir ~/project_documents/archive
+Explanation: This command creates a subdirectory named archive inside the project_documents directory.
+
+Command: mv ~/project_documents/plan_copy.txt ~/project_documents/archive/
+Explanation: This command moves the copied file plan_copy.txt into the archive subdirectory for organization.
+
+Command: ls -R ~/project_documents
+Explanation: This command lists all files and subdirectories inside project_documents recursively, displaying the complete directory structure.
+
+Command: realpath ~/project_documents/archive/plan_copy.txt
+Explanation: This command displays the absolute path of the plan_copy.txt file after it has been moved to the archive directory.
 
