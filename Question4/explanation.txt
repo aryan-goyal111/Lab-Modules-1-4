@@ -1,1 +1,38 @@
+Command: uptime
+Explanation: This command displays how long the system has been running since the last boot.
 
+Command: ps -u $USER
+Explanation: This command lists all processes currently running under my user account.
+
+Command: ps -u $USER --sort=-%cpu | head -n 2
+Explanation: This command identifies the process consuming the highest CPU usage among my running processes.
+
+Command: sleep 60 &
+Explanation: This command starts a process in the background that sleeps for 60 seconds.
+
+Command: jobs
+Explanation: This command lists background jobs to verify that the sleep process is running.
+
+Command: renice 5 -p $!
+Explanation: This command changes the priority (niceness) of the background process and sets it to a lower priority.
+
+Command: ps -o pid,ni,cmd -p $!
+Explanation: This command displays the updated priority (nice value) of the modified process.
+
+Command: free -h
+Explanation: This command displays memory usage information in a human-readable format.
+
+Command: df -h ~
+Explanation: This command shows disk space usage of the filesystem where the home directory resides.
+
+Command: echo $SHELL
+Explanation: This command displays the name of the shell currently in use.
+
+Command: uname -a > system_report.txt
+Explanation: This command redirects system information output into a file named system_report.txt.
+
+Command: cat system_report.txt
+Explanation: This command displays the contents of the system_report.txt file.
+
+Command: ncdu -h
+Explanation: This command launches the ncdu tool, which provides an interactive visualization of disk usage in a human-readable format.
