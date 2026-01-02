@@ -1,1 +1,32 @@
+Command: echo "This is sample data for inode testing." > ~/sample_data.txt
+Explanation: This command creates a file named sample_data.txt in the home directory and writes sample text into it.
 
+Command: ln ~/sample_data.txt ~/sample_hard.txt
+Explanation: This command creates a hard link named sample_hard.txt pointing to the same inode as sample_data.txt.
+
+Command: ln -s ~/sample_data.txt ~/sample_soft.txt
+Explanation: This command creates a symbolic (soft) link named sample_soft.txt that points to sample_data.txt.
+
+Command: ls -i ~/sample_data.txt ~/sample_hard.txt ~/sample_soft.txt
+Explanation: This command displays the inode numbers of the files to verify which files share the same inode.
+
+Command: ls -l ~/sample_data.txt
+Explanation: This command displays detailed metadata of sample_data.txt, including permissions, ownership, size, and timestamps.
+
+Command: du -h ~
+Explanation: This command displays the disk usage of the home directory in a human-readable format.
+
+Command: ls -lh ~
+Explanation: This command lists all files in the home directory along with their sizes in a human-readable format.
+
+Command: rm ~/sample_soft.txt
+Explanation: This command deletes the symbolic link sample_soft.txt without affecting the original file.
+
+Command: cat ~/sample_data.txt
+Explanation: This command displays the contents of sample_data.txt to verify that the original file remains unaffected after deleting the symbolic link.
+
+Command: du -h ~
+Explanation: This command again displays disk usage to confirm no unexpected changes occurred.
+
+Command: df -h
+Explanation: This command displays overall filesystem disk space usage in a human-readable format, including total, used, and available space.
