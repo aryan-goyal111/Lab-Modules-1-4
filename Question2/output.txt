@@ -1,1 +1,17 @@
+(no output)
+(no output)
+(no output)
+(no output)
+-rw-r--r-- 1 aryan aryan 55 plan.txt
+(no output)
+(no output)
+(no output)
+(no output)
+project_documents:
+archive
+plan.txt
+
+project_documents/archive:
+plan_copy.txt
+/home/aryan/project_documents/archive/plan_copy.txt
 
