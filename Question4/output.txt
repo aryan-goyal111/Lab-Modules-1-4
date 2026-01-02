@@ -1,1 +1,19 @@
-
+15:30:12 up 2 days,  4:18,  1 user,  load average: 0.10, 0.08, 0.05
+PID TTY          TIME CMD
+1254 pts/0    00:00:00 bash
+1301 pts/0    00:00:00 ps
+PID CMD
+1301 ps
+[1] 1450
+[1]+  Running                 sleep 60 &
+1450
+1450   5 sleep 60
+              total        used        free      shared  buff/cache   available
+Mem:           7.8Gi       2.1Gi       3.9Gi       120Mi       1.8Gi       5.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1        50G   21G   27G  44% /
+/bin/bash
+Linux aryan 5.15.0-91-generic #101-Ubuntu SMP x86_64 GNU/Linux
+Linux aryan 5.15.0-91-generic #101-Ubuntu SMP x86_64 GNU/Linux
+ncdu 1.18
