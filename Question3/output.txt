@@ -1,1 +1,18 @@
+(no output)
+(no output)
+(no output)
+1048576 /home/aryan/sample_data.txt
+1048576 /home/aryan/sample_hard.txt
+1049001 /home/aryan/sample_soft.txt
+-rw-r--r-- 2 aryan aryan 38 sample_data.txt
+2.1G	/home/aryan
+total 12K
+-rw-r--r-- 2 aryan aryan 38 sample_data.txt
+-rw-r--r-- 2 aryan aryan 38 sample_hard.txt
+lrwxrwxrwx 1 aryan aryan 20 sample_soft.txt -> /home/aryan/sample_data.txt
+(no output)
+This is sample data for inode testing.
+2.1G	/home/aryan
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1       100G   45G   55G  45% /
 
